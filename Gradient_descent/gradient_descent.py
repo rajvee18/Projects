@@ -21,12 +21,10 @@ def gradient_descent(x,y):
         
 
         print(f"m {m_curr}, b {b_curr}, iteration {i}, cost {cost}")
+
+    return m_curr,b_curr
     
 
-x = np.array([1,2,3,4,5])
-y = np.array([100,567,987,464,124])
-
-gradient_descent(x,y)
 
 
 
