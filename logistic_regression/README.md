@@ -8,13 +8,15 @@ Using calculus, you can determine the values of a and b that make the SSE a mini
 <br>
 
 $$
-\hat{y}=a+bx $$
+\hat{y}=a+bx$$
 where,
 $$
-a=\hat{y}-b\hat{x} $$
+a=\hat{y}-b\hat{x}
+$$
 and
 $$
-b=\frac{\sum(x-\hat{x})(y-\hat{y})}{\sum(x-\hat{x})^2} $$ 
+b=\frac{\sum(x-\hat{x})(y-\hat{y})}{\sum(x-\hat{x})^2}
+$$ 
 
 
 <br>
@@ -32,6 +34,7 @@ $$
 <font size="4">
     
 ## The log loss is effective for logistic regression
+
 $$
 \mathscr{L}(y,\hat{y})=-\frac{1}{N}\bigg( \sum -y\log\hat{y}-(1-y)\log(1-\hat{y})\bigg)=-\frac{1}{N}\sum y\log\bigg(\frac{1}{1+\exp^{-a-bx}}\bigg)-\frac{1}{N}\sum(1-y)\log\bigg(1-\frac{1}{1+\exp^{-a-bx}}\bigg)
 $$
