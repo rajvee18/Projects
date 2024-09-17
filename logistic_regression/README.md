@@ -8,7 +8,8 @@ Using calculus, you can determine the values of a and b that make the SSE a mini
 <br>
 
 $$
-\hat{y}=a+bx$$
+\hat{y}=a+bx
+$$
 where,
 $$
 a=\hat{y}-b\hat{x}
