@@ -16,8 +16,6 @@ $$
 and
 $$
 b=\frac{\sum(x-\hat{x})(y-\hat{y})}{\sum(x-\hat{x})^2}
-
-
 $$ 
 
 
@@ -39,6 +37,7 @@ $$
 $$
 \mathscr{L}(y,\hat{y})=-\frac{1}{N}\bigg( \sum -y\log\hat{y}-(1-y)\log(1-\hat{y})\bigg)=-\frac{1}{N}\sum y\log\bigg(\frac{1}{1+\exp^{-a-bx}}\bigg)-\frac{1}{N}\sum(1-y)\log\bigg(1-\frac{1}{1+\exp^{-a-bx}}\bigg)
 $$
+
 $N$ being the number of data points and the sum is taken over all data points.
 
 <br>
